@@ -1,0 +1,23 @@
+{
+	"name": "mern-api",
+	"version": "1.0.0",
+	"description": "goalsetter api app",
+	"main": "index.js",
+	"scripts": {
+		"start": "node backend/server.js",
+		"server": "nodemon backend/server.js"
+	},
+	"author": "Tres Bednarz",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.20.0",
+		"colors": "^1.4.0",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"express-async-handler": "^1.2.0",
+		"mongoose": "^6.3.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	}
+}
